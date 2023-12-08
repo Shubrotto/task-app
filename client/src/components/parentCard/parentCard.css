@@ -1,0 +1,74 @@
+.parentCard {
+  background: #f2f4f7;
+  width: 235px;
+  color: var(--text-color);
+  margin-right: 10px;
+  overflow-y: scroll;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar:horizontal {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #dfdede;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0070bd;
+  border-radius: 5px;
+}
+
+.parentCardTop {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 12px;
+}
+
+.topLeft {
+  display: flex;
+  align-items: center;
+}
+
+.badge:nth-child(1) {
+  width: 15px;
+  height: 18px;
+  background: rgb(231, 3, 3);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-right: 5px;
+}
+
+.badge:nth-child(2) {
+  background: #15cceb !important;
+}
+
+.badge:nth-child(3) {
+  background: rgb(197, 197, 29) !important;
+}
+
+.badge:nth-of-type(4),
+.badge:nth-of-type(5) {
+  background: none;
+}
+
+.topRight h4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 20px;
+  background: #e3ebf1;
+  border-radius: 5px;
+}
+
+.attachFileIcon {
+  cursor: pointer;
+}

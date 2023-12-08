@@ -1,0 +1,30 @@
+:root {
+  --text-color: #686d74;
+}
+
+.main {
+  background: white;
+  display: flex;
+  width: max-content;
+  padding: 40px 0 40px 30px;
+  overflow-x: scroll;
+}
+
+::-webkit-scrollbar:horizontal {
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #dfdede;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0070bd;
+  border-radius: 5px;
+}
+
+h4 {
+  font-size: 13px;
+  font-weight: 500;
+}

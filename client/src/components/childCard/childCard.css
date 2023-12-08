@@ -1,0 +1,133 @@
+.child {
+  margin: 10px 5px;
+  background: white;
+  padding: 5px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.topLeft img,
+.topRight img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 4px;
+}
+
+.topLeft h5,
+.topRight h5 {
+  font-size: 10px;
+  color: rgb(83, 83, 83);
+}
+
+.topRight {
+  display: flex;
+  align-items: center;
+}
+
+.center {
+  display: flex;
+  margin: 10px 0;
+  justify-content: space-between;
+}
+
+.centerLeft,
+.centerRight {
+  display: flex;
+  align-items: center;
+}
+
+.centerLeft p,
+.centerRight p {
+  font-size: 9px;
+}
+
+.centerIcon {
+  font-size: 9px;
+  margin-right: 5px;
+}
+
+.centerRight {
+  background: rgb(241, 241, 241);
+  padding: 4px 3px;
+  border-radius: 3px;
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 500;
+}
+
+.bottom img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 2px;
+}
+
+.bottom p,
+.bottom div {
+  display: flex;
+  align-items: center;
+}
+
+.bottom p {
+  font-size: 10px;
+  margin-right: 5px;
+}
+
+.plus {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: rgb(228, 227, 227);
+  align-items: center;
+  justify-content: center;
+}
+
+.icons {
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+.fileInput {
+  display: none;
+}
+
+.upload {
+  display: none;
+}
+
+.fileInputModal {
+  position: absolute;
+  top: -4px;
+  left: -10px;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  padding: 35px 5px;
+  cursor: pointer;
+}
+
+.uploadModal {
+  position: absolute;
+  top: 60px;
+  left: 70px;
+  background: rgb(1, 47, 252);
+  color: white;
+  padding: 4px 7px;
+  border: none;
+  cursor: pointer;
+}
